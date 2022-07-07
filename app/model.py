@@ -1,7 +1,9 @@
 from pandas import concat
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions
+import tensorflow
+from tensorflow import keras
+from keras.models import load_model
+from keras.preprocessing import image
+from keras.applications.vgg16 import preprocess_input, decode_predictions
 import numpy as np
 import base64
 import io

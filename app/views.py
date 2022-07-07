@@ -1,4 +1,3 @@
-from msilib.schema import Class
 from flask import Flask, render_template, jsonify, Response
 from .model import Predict
 app = Flask(__name__)
